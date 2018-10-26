@@ -1,10 +1,10 @@
-for (age = 0; age < 10; age++){
-  console.log("You are under 10.");
+for (i = 0; i < 10; i++){
+  if (i === 5 || i === 3){
+    continue;
+  }
+  console.log(i);
+  if (i === 7){
+    break;
+  }
 }
-document.write("You are now over 10.");
-
-var links = document.getElementByTagName("a");
-for (i = 1; i <= links.length; i++){
-  console.log("This is the link no." + i)
-}
-document.write("All links now looped.");
+console.log("I have broken out of the loop.";)
