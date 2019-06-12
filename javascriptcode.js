@@ -7,4 +7,4 @@ for (i = 0; i < 10; i++){
     break;
   }
 }
-console.log("I have broken out of the loop.";)
+console.log("I have broken out of the loop.")
